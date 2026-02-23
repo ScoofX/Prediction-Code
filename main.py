@@ -7,7 +7,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="$", intents=intents)
 
-API_KEY = "2349d764cc2d4605abce73add1cb4ef3"
+API_KEY = "YOUR_API_KEY"
 BASE_URL = "https://api.football-data.org/v4/teams"
 
 USER_ID = 1408798307136049173
@@ -207,4 +207,5 @@ async def scores(ctx):
 async def on_ready():
     print(f"✅ Logged in as {bot.user}")
 
-bot.run("MTQ3NDg5NDgxMDQ3NjQ0OTg4NA.GRjlM2.ZZjquiUuniROJQq81HNFaBVzyOKRHGH2vOmPyI")
+
+bot.run("TOKEN_HERE")
